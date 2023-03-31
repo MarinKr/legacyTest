@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Import;
 	  ContextDataSource.class
 	, ContextSqlMapper.class
 	})
-@ComponentScan(basePackages = {"com.goott.test.service.impl"}) // 서비스 Bean 검색스캔 예시
+@ComponentScan(basePackages = {"com.goott.test"}) // 서비스 Bean 검색스캔 예시
 public class RootContext {
 	
 
